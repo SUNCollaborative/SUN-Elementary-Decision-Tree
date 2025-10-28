@@ -11,13 +11,20 @@
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play elementary.</tw-noscript></noscript></tw-story>
 <tw-storydata name="elementary" startnode="5" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="49A14537-1E48-4423-8574-A5D171FFFD92" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story {
   background-image: url("https://i.imgur.com/l1N9kUU.png");
-  /* You may also need to add other properties */
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: Helvetica, Calibri, sans-serif;
+  font-family: Trebuchet MS, Verdana, Helvetica, Calibri, sans-serif;
   max-width:100%;
-  color: #919abe
- 
+  color: #919abe;
+   line-height:1
+}
+
+tw-story[tags~="decision"] {
+	  background-image: url("https://i.imgur.com/SAHkM2K.png");
+}
+
+tw-story[tags~="title"] {
+	  background-image: url("https://i.imgur.com/FiOReAs.png");
 }
 
 tw-link, .enchantment-link {
@@ -25,28 +32,19 @@ tw-link, .enchantment-link {
       text-transform: uppercase;
            }
 
-.image-row {
-  display: flex;        
-  gap: 0.04em;             
-  justify-content: center; 
-  align-items: flex-start; 
-}
-
-.image-row img {
-  max-width: 90%;       
-  height: auto;        
-}
-
 
 .bigont {
-font-size: 120%;  
+font-size: 100%;  
   font-weight: bold;
   color: #d27a18;
+  text-decoration: underline;
 }
 
 .lilfont{
-font-size: 60%;  
+font-size: 50%;  
   color: #d27a18;
+   font-style: italic;
+   text-decoration: underline;
 }
 
 .biggestboldfont {
@@ -58,22 +56,48 @@ font-size: 200% ;
 
 .biggestitalicfont{
   font-size: 150%;
-  font-weight: italic;
-  color: #475282;
+  font-style: italic;
+    font-weight: bold;
+  color: ##919abe;
+  background-color:rgba(47, 62,127, 0.5)
 }
-    </style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="PreDecision" tags="" position="350,950" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/X7BGlr5.png&quot; alt=&quot;Page 6&quot; style=&quot;max-width: 100%;&quot;&gt;  |Choice 1]]
+
+.decisionfont{
+  font-size: 150%;
+  font-weight: bold;
+  color: #919abe;
+  background-color:rgba(47, 62,127, 0.5)
+}
+
+.decisionfont2{
+  font-size:60%;
+  font-style: italic;
+  color: #919abe;
+
+}
+
+.scorefont{
+  font-size: 200%;
+  font-style: bold;
+  
+  color: ##919abe;
+  background-color:rgba(47, 62,127, 0.5)
+}  </style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="PreDecision" tags="" position="350,950" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/X7BGlr5.png&quot; alt=&quot;Marc reaches the classroom. The teacher, Ms. Parks, is currently speaking with another student. Marc looks very worried as he walks past, bogged down by his thoughts.&quot; style=&quot;max-width: 100%;&quot;&gt;  |Choice 1]]
 Marc arrives in the classroom with a nervous face. The teacher is currently talking to another student about a math problem. 
 
-[[How would you respond? |Choice 1]]</tw-passagedata><tw-passagedata pid="2" name=" Page1" tags="" position="125,350" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/AoH5qcih.jpeg&quot; alt=&quot;Page 1&quot; style=&quot;max-width: 100%;&quot;&gt;  | Page2]]
+&lt;span class = &quot;bigont&quot;&gt;[[How would you respond? |Choice 1]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="2" name=" Page1" tags="" position="125,350" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/AoH5qcih.jpeg&quot; alt=&quot;An elementary student, Marc, rushes for the door as his parent tells him that the bus is about to arrive. He looks anxious and doesn&#39;t seem fully ready, and seems to miss the homework or the plushie sitting on his desk.&quot; style=&quot;max-width: 100%;&quot;&gt;  | Page2]]
 
-[[Next Page | Page2]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 1|PreDecision]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="3" name=" Page2" tags="" position="125,475" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/SO4hyxh.jpeg&quot; alt=&quot;Page 2&quot; style=&quot;max-width: 100%;&quot;&gt;  | Page3]]
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page | Page2]]&lt;/span&gt;
 
-[[Next Page | Page3]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 1|PreDecision]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="4" name=" Page3" tags="" position="125,600" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/obqUSGM.jpeg&quot; alt=&quot;Page 3&quot; style=&quot;max-width: 100%;&quot;&gt;  | Page4]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 1|PreDecision]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="3" name=" Page2" tags="" position="125,475" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/SO4hyxh.jpeg&quot; alt=&quot;Marc makes it to the bus regardless, and gets on&quot; style=&quot;max-width: 100%;&quot;&gt;  | Page3]]
 
-[[Next Page | Page4]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 1|PreDecision]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="5" name="Intro" tags="" position="250,100" size="100,100"> &lt;span class = &quot;biggestitalicfont&quot;&gt;[SUN Decision Tree:]&lt;/span&gt;
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page | Page3]]&lt;/span&gt;
+
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 1|PreDecision]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="4" name=" Page3" tags="" position="125,600" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/obqUSGM.jpeg&quot; alt=&quot;Marc takes a moment on the bus to check in his backpack, and gets a surprise&quot; style=&quot;max-width: 100%;&quot;&gt;  | Page4]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page | Page4]]&lt;/span&gt;
+
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 1|PreDecision]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="5" name="Intro" tags="title" position="250,100" size="100,100"> &lt;span class = &quot;biggestitalicfont&quot;&gt;[SUN Decision Tree]&lt;/span&gt;
  &lt;span class = &quot;biggestboldfont&quot;&gt;[Elementary School]&lt;/span&gt;
 ---
 You will be asked to make choices based on the story that will follow. 
@@ -81,281 +105,297 @@ You will be asked to make choices based on the story that will follow.
 Click on the links or on the story pages to continue. 
 ---
 &lt;span class = &quot;bigont&quot;&gt;[[Continue | Start]]&lt;/span&gt;
+
 &lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 1|PreDecision]]&lt;/span&gt;
 
 
-</tw-passagedata><tw-passagedata pid="6" name=" Start" tags="" position="250,250" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/BCW9Ml0.png&quot; alt=&quot;Title Page&quot;  style=&quot;max-width: 100%; background: #475282&quot;&gt;  | Page1]]
+</tw-passagedata><tw-passagedata pid="6" name=" Start" tags="" position="250,250" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/BCW9Ml0.png&quot; alt=&quot;Story Starts: Before School...&quot;  style=&quot;max-width: 100%; background: #475282&quot;&gt;  | Page1]]
 
-[[Continue | Page1]]
+&lt;span class = &quot;bigont&quot;&gt;[[Continue | Page1]]&lt;/span&gt;
+
 &lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 1|PreDecision]]&lt;/span&gt;
-</tw-passagedata><tw-passagedata pid="7" name=" Page4" tags="" position="125,725" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/UDkvL8w.jpeg&quot; alt=&quot;Page 4&quot; style=&quot;max-width: 100%;&quot;&gt;  | Page5]]
+</tw-passagedata><tw-passagedata pid="7" name=" Page4" tags="" position="125,725" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/UDkvL8w.jpeg&quot; alt=&quot;He realizes that he&#39;s forgotten his math homework, even though he had it done! He is upset&quot; style=&quot;max-width: 100%;&quot;&gt;  | Page5]]
 
-[[Next Page | Page5]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 1|PreDecision]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="8" name=" Page5" tags="" position="125,850" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/iQckrX4.jpeg&quot; alt=&quot;Page 5&quot; style=&quot;max-width: 100%;&quot;&gt;  |PreDecision]]
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page | Page5]]&lt;/span&gt;
 
-[[Next Page  |PreDecision]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 1|PreDecision]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="8" name=" Page5" tags="" position="125,850" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/iQckrX4.jpeg&quot; alt=&quot;Marc looks extremely worried as he sits with his backpack. The backpack is styled in his favorite card game, PEP: Pocket Element Pets&quot; style=&quot;max-width: 100%;&quot;&gt;  |PreDecision]]
 
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip Introduction |PreDecision]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="9" name="Choice 1" tags="" position="350,1075" size="100,100">&lt;span class = &quot;biggerfont&quot;&gt;Choose one of these responses:&lt;/span&gt;
-&lt;img src=&quot;https://i.imgur.com/yds7j80.png&quot; alt=&quot;Teacher&quot; width=15% align=right&gt;
-[[ &lt;img src=&quot;https://i.imgur.com/yFkadVs.png&quot; style=&quot;max-width: 90%;&quot;&gt;  |Resulta]]
-[[&lt;img src=&quot;https://i.imgur.com/uQRlOGY.png&quot; style=&quot;max-width: 90%;&quot;&gt;  |Resultb]]
-[[&lt;img src=&quot;https://i.imgur.com/Rv4T5Ea.png&quot; style=&quot;max-width: 90%;&quot;&gt;  |Resultb]]
-</tw-passagedata><tw-passagedata pid="10" name="Resulta" tags="" position="225,1200" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/8ptovYY.png&quot; alt=&quot;Page 6&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page 7a]]
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |PreDecision]]&lt;/span&gt;
 
-[[Next Page |Page 7a]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|Page 12a]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="11" name="Resultb" tags="" position="350,1200" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/8ptovYY.png&quot; alt=&quot;Page 6&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 7b]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip Introduction |PreDecision]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="9" name="Choice 1" tags="decision" position="350,1075" size="100,100">&lt;span class = &quot;decisionfont&quot;&gt;Decision 1 &lt;/span&gt;
+&lt;span class = &quot;decisionfont2&quot;&gt;Choose one of these three responses by clicking or tapping on the image &lt;/span&gt;
+
+[[ &lt;img src=&quot;https://i.imgur.com/yFkadVs.png&quot; alt=&quot;Choice 1: After pausing the conversation with the current student, the teacher says: Good Morning, Marc, How are you Today?&quot;style=&quot;max-width: 90%;&quot; &gt;  |Resulta]]
+[[&lt;img src=&quot;https://i.imgur.com/uQRlOGY.png&quot; alt=&quot;After pausing the conversation with the other student, the teacher says: Don&#39;t forget to put your homework in the bin&quot; style=&quot;max-width: 90%;&quot;&gt;  |Resultb]]
+[[&lt;img src=&quot;https://i.imgur.com/Rv4T5Ea.png&quot; alt=&quot;The teacher finishes the conversation with the current student, then greets all the other students at once&quot; style=&quot;max-width: 90%;&quot;&gt;  |Resultb]]
+
+</tw-passagedata><tw-passagedata pid="10" name="Resulta" tags="" position="225,1200" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/8ptovYY.png&quot; alt=&quot;Marc tells the teacher that he forgot his homework with worry on his face&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page 7a]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page |Page 7a]]&lt;/span&gt;
+
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|PreDecision2A]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="11" name="Resultb" tags="" position="350,1200" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/8ptovYY.png&quot; alt=&quot;Marc Tells the teacher he forgot his homework with worry&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 7b]]
 Marc responds by going to his desk and putting his head down, looking sad. 
 
-[[Next Page |Page 7b]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|Page 12b]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="12" name="Page 7b" tags="" position="350,1325" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/ywLI51T.png&quot; alt=&quot;Page 7&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 8b]]
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page |Page 7b]]&lt;/span&gt;
 
-[[Next Page  |Page 8b]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|Page 12b]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="13" name="Page 7a" tags="" position="225,1325" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/ywLI51T.png&quot; alt=&quot;Page 7&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 8a]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|PreDecision2B]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="12" name="Page 7b" tags="" position="350,1325" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/ywLI51T.png&quot; alt=&quot;Time passes. Later, at recess...&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 8b]]
 
-[[Next Page  |Page 8a]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|Page 12a]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="14" name="Page 8a" tags="" position="225,1450" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/OvRtjg6.jpeg&quot; alt=&quot;Page 8&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 9a]]
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page 8b]]&lt;/span&gt;
 
-[[Next Page  |Page 9a]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|Page 12a]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="15" name="Page 8b" tags="" position="350,1450" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/OvRtjg6.jpeg&quot; alt=&quot;Page 8&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 9b]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|PreDecision2B]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="13" name="Page 7a" tags="" position="225,1325" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/ywLI51T.png&quot; alt=&quot;Time passes. Later, at recess...&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 8a]]
 
-[[Next Page  |Page 9b]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|Page 12b]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="16" name="Page 9a" tags="" position="225,1575" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/RoIaM2n.jpeg&quot; alt=&quot;Page 9&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 10a]]
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page 8a]]&lt;/span&gt;
 
-[[Next Page  |Page 10a]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|Page 12a]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="17" name="Page 9b" tags="" position="350,1575" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/RoIaM2n.jpeg&quot; alt=&quot;Page 9&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 10b]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|PreDecision2A]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="14" name="Page 8a" tags="" position="225,1450" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/OvRtjg6.jpeg&quot; alt=&quot;Marc plays his favorite card game, PEP, with his friend while other kids play in the background on the playground. Marc looks happy and content, and his friend is enjoying herself&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 9a]]
 
-[[Next Page  |Page 10b]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|Page 12b]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="18" name="Page 10a" tags="" position="225,1700" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/R4GyXFj.png&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 11a]]
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page 9a]]&lt;/span&gt;
 
-[[Next Page  |Page 11a]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|Page 12a]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="19" name="Page 10b" tags="" position="350,1700" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/R4GyXFj.png&quot; alt=&quot;Page 10&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 11b]]
-[[Next Page  |Page 11b]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|Page 12b]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="20" name="Page 11a" tags="" position="225,1825" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/RTo2lJX.png&quot; alt=&quot;Page 11&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 12a]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|PreDecision2A]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="15" name="Page 8b" tags="" position="350,1450" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/OvRtjg6.jpeg&quot; alt=&quot;Marc plays his favorite card game, PEP, with his friend while other kids play in the background on the playground. Marc looks happy and content, and his friend is enjoying herself&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 9b]]
 
-[[Next Page  |Page 12a]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|Page 12a]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="21" name="Page 11b" tags="" position="350,1825" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/RTo2lJX.png&quot; alt=&quot;Page 11&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 12b]]
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page 9b]]&lt;/span&gt;
 
-[[Next Page  |Page 12b]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|Page 12b]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="22" name="Page 12a" tags="" position="225,1950" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/jWdTeoV.png&quot; alt=&quot;Page 12&quot;style=&quot;max-width: 100%;&quot;&gt;  |Choice2a]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|PreDecision2B]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="16" name="Page 9a" tags="" position="225,1575" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/RoIaM2n.jpeg&quot; alt=&quot;..but the bell rings suddenly, loud and jarring. Marc is upset, and is sad the card game needs to be left unfinished&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 10a]]
 
-[[Next Page  |Choice2a]]</tw-passagedata><tw-passagedata pid="23" name="Page 12b" tags="" position="350,1950" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/jWdTeoV.png&quot; alt=&quot;Page 12&quot;style=&quot;max-width: 100%;&quot;&gt;  |Choice2b]]
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page 10a]]&lt;/span&gt;
 
-[[Next Page  |Choice2b]]</tw-passagedata><tw-passagedata pid="24" name="Choice2a" tags="" position="125,2100" size="100,100">&lt;span class = &quot;biggerfont&quot;&gt;Choose one of these responses:&lt;/span&gt;
-&lt;img src=&quot;https://i.imgur.com/yds7j80.png&quot; alt=&quot;Teacher&quot; width=15% align=right&gt;
-[[&lt;img src=&quot;https://i.imgur.com/muaZW3i.png&quot; style=&quot;max-width: 90%;&quot;&gt;  |Result2ab]]
-[[&lt;img src=&quot;https://i.imgur.com/YSrmjb9.png&quot; style=&quot;max-width: 90%;&quot;&gt;  |Result2aa]]
-[[&lt;img src=&quot;https://i.imgur.com/eYEhnxd.png&quot; style=&quot;max-width: 90%;&quot;&gt;  |Result2ab]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|PreDecision2A]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="17" name="Page 9b" tags="" position="350,1575" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/RoIaM2n.jpeg&quot; alt=&quot;..but the bell rings suddenly, loud and jarring. Marc is upset, and is sad the card game needs to be left unfinished&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 10b]]
 
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page 10b]]&lt;/span&gt;
 
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|PreDecision2B]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="18" name="Page 10a" tags="" position="225,1700" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/R4GyXFj.png&quot;alt=&quot;As Marc cleans up his cards, he recognizes his favorite PEP creature: Aquapeep. This reminds him that he forgot his favorite plush of Aquapeep, his comfort object, and this causes him to become ever more upset&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page 11a]]
 
-</tw-passagedata><tw-passagedata pid="25" name="Choice2b" tags="" position="425,2100" size="100,100">&lt;span class = &quot;biggerfont&quot;&gt;Choose one of these responses:&lt;/span&gt;
-&lt;img src=&quot;https://i.imgur.com/yds7j80.png&quot; alt=&quot;Teacher&quot; width=15% align=right&gt;
-[[&lt;img src=&quot;https://i.imgur.com/muaZW3i.png&quot; style=&quot;max-width: 90%;&quot;&gt;  |Result2bb]]
-[[&lt;img src=&quot;https://i.imgur.com/YSrmjb9.png&quot; style=&quot;max-width: 90%;&quot;&gt;  |Result2ba]]
-[[&lt;img src=&quot;https://i.imgur.com/eYEhnxd.png&quot; style=&quot;max-width: 90%;&quot;&gt;  |Result2bb]]
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page 11a]]&lt;/span&gt;
 
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|PreDecision2A]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="19" name="Page 10b" tags="" position="350,1700" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/R4GyXFj.png&quot; alt=&quot;As Marc cleans up his cards, he recognizes his favorite PEP creature: Aquapeep. This reminds him that he forgot his favorite plush of Aquapeep, his comfort object, and this causes him to become ever more upset&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page 11b]]
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page 11b]]&lt;/span&gt;
 
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|PreDecision2B]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="20" name="Page 11a" tags="" position="225,1825" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/RTo2lJX.png&quot; alt=&quot;Later, when we are back in the classroom...&quot;style=&quot;max-width: 100%;&quot;&gt;  |PreDecision2A]]
 
-</tw-passagedata><tw-passagedata pid="26" name="Result2aa" tags="" position="125,2225" size="100,100">OKAY WITH STUFFIE
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |PreDecision2A]]&lt;/span&gt;
 
-[[&lt;img src=&quot;https://i.imgur.com/atro26N.png&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page15aa]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|PreDecision2A]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="21" name="Page 11b" tags="" position="350,1825" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/RTo2lJX.png&quot; alt=&quot;Later, when we are back in the classroom...&quot;style=&quot;max-width: 100%;&quot;&gt;  |PreDecision2B]]
 
-[[Next Page  |Page15aa]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Page19aa]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="27" name="Result2ab" tags="" position="275,2225" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/PmX2MvS.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page15ab]]
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |PreDecision2B]]&lt;/span&gt;
 
-[[Next Page  |Page15ab]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 2|PreDecision2B]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="22" name="PreDecision2A" tags="" position="225,1950" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/jWdTeoV.png&quot; alt=&quot;As Marc walks back into the class rom recess, the teacher announces that there is going to be a pop quiz. In response, Marc declares with frustration that on top of forgetting his homework earlier, he&#39;s forgotten his favorite plushie too!&quot;style=&quot;max-width: 100%;&quot;&gt;  |Choice2a]]
 
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Page19ab]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="28" name="Result2bb" tags="" position="750,2225" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/PmX2MvS.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page15bb]]
+&lt;span class = &quot;bigont&quot;&gt;[[How would you respond? |Choice2a]]</tw-passagedata><tw-passagedata pid="23" name="PreDecision2B" tags="" position="350,1950" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/jWdTeoV.png&quot; alt=&quot;As Marc walks back into the class rom recess, the teacher announces that there is going to be a pop quiz. In response, Marc declares with frustration that on top of forgetting his homework earlier, he&#39;s forgotten his favorite plushie too!&quot;style=&quot;max-width: 100%;&quot;&gt;  |Choice2b]]
 
-[[Next Page  |Page15bb]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Page19bb]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="29" name="Result2ba" tags="" position="575,2225" size="100,100">OKAY WITH STUFFIE
+&lt;span class = &quot;bigont&quot;&gt;[[How would you respond? |Choice2b]]</tw-passagedata><tw-passagedata pid="24" name="Choice2a" tags="decision" position="125,2100" size="100,100">&lt;span class = &quot;decisionfont&quot;&gt;Decision 2 &lt;/span&gt;
+&lt;span class = &quot;decisionfont2&quot;&gt;Choose one of these three responses by clicking or tapping on the image &lt;/span&gt;
 
-[[&lt;img src=&quot;https://i.imgur.com/atro26N.png&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page15ba]]
-
-[[Next Page  |Page15ba]]
-
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Page19ba]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="30" name="Page15ab" tags="" position="300,2350" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/K2PWGnQ.png&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page16ab]]
-
-[[Next Page  |Page16ab]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Page19ab]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="31" name="Page15bb" tags="" position="750,2350" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/K2PWGnQ.png&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page16bb]]
-
-[[Next Page  |Page16bb]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Page19bb]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="32" name="Page15aa" tags="" position="125,2350" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/K2PWGnQ.png&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page16aa]]
-
-[[Next Page  |Page16aa]]</tw-passagedata><tw-passagedata pid="33" name="Page15ba" tags="" position="575,2350" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/K2PWGnQ.png&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page16ba]]
-
-[[Next Page  |Page16ba]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Page19ba]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="34" name="Page16aa" tags="" position="125,2475" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/x0Zw2n1.png&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page18aa]]
-
-[[Next Page  |Page18aa]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Page19aa]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="35" name="Page16ab" tags="" position="300,2475" size="100,100">[[&lt;img src=https://i.imgur.com/bOwbzIF.jpegalt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page18ab]]
-
-[[Next Page  |Page18ab]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Page19ab]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="36" name="Page16ba" tags="" position="575,2475" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/bOwbzIF.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page18ba]]
-
-[[Next Page  |Page18ba]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Page19ba]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="37" name="Page16bb" tags="" position="750,2475" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/bOwbzIF.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page18bb]]
-
-[[Next Page  |Page18bb]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Page19bb]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="38" name="Page18aa" tags="" position="125,2725" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/tGwDdsQ.png&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page19aa]]
-
-[[Next Page  |Page19aa]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Page19aa]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="39" name="Page19aa" tags="" position="125,2850" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/whFFmYH.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Choice3aa]]
-
-[[Next Page  |Choice3aa]]
-</tw-passagedata><tw-passagedata pid="40" name="Page18ab" tags="" position="300,2725" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/x0Zw2n1.png&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page19ab]]
-
-[[Next Page  |Page19ab]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Page19ab]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="41" name="Page19ab" tags="" position="300,2850" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/whFFmYH.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Choice3ab]]
-
-[[Next Page  |Choice3ab]]</tw-passagedata><tw-passagedata pid="42" name="Page18ba" tags="" position="575,2725" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/x0Zw2n1.png&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page19ba]]
-
-[[Next Page  |Page19ba]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Page19ba]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="43" name="Page19ba" tags="" position="575,2850" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/whFFmYH.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Choice3ba]]
-
-[[Next Page  |Choice3ba]]</tw-passagedata><tw-passagedata pid="44" name="Page18bb" tags="" position="750,2725" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/x0Zw2n1.png&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page19bb]]
-
-[[Next Page  |Page19bb]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Page19bb]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="45" name="Page19bb" tags="" position="750,2850" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/whFFmYH.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Choice3bb]]
-
-[[Next Page  |Choice3bb]]</tw-passagedata><tw-passagedata pid="46" name="Choice3aa" tags="" position="125,2975" size="100,100">&lt;span class = &quot;biggerfont&quot;&gt;Choose one of these responses:&lt;/span&gt;
-&lt;img src=&quot;https://i.imgur.com/yds7j80.png&quot; alt=&quot;Teacher&quot; width=15% align=right&gt;
-[[&lt;img src=&quot;https://i.imgur.com/KpOPVvz.png&quot;style=&quot;max-width: 90%;&quot;&gt;  |Result3aab]]
-[[&lt;img src=&quot;https://i.imgur.com/v37T54X.png&quot;style=&quot;max-width: 90%;&quot;&gt;  |Result3aab]]
-[[&lt;img src=&quot;https://i.imgur.com/0cVGQGL.png&quot;style=&quot;max-width: 90%;&quot;&gt;  |Result3aaa]]
+[[&lt;img src=&quot;https://i.imgur.com/muaZW3i.png&quot; alt=&quot;The teacher reminds marc that he can bring his plushie tomorrow instead&quot;  style=&quot;max-width: 90%;&quot;&gt;  |Result2ab]]
+[[&lt;img src=&quot;https://i.imgur.com/YSrmjb9.png&quot; alt=&quot; The teacher offers Marc his backup plushie that is kept in the classroom espeically for moments like these&quot; style=&quot;max-width: 90%;&quot;&gt;  |Result2aa]]
+[[&lt;img src=&quot;https://i.imgur.com/eYEhnxd.png&quot; alt: &quot;The teacher assures him he will do fine on the quiz, he doesn&#39;t need to worry&quot; style=&quot;max-width: 90%;&quot; &gt;  |Result2ab]]
 
 
 
+</tw-passagedata><tw-passagedata pid="25" name="Choice2b" tags="decision" position="425,2100" size="100,100">&lt;span class = &quot;decisionfont&quot;&gt;Decision 2&lt;/span&gt;
+&lt;span class = &quot;decisionfont2&quot;&gt;Choose one of these three responses by clicking or tapping on the image &lt;/span&gt;
+
+[[&lt;img src=&quot;https://i.imgur.com/muaZW3i.png&quot; alt=&quot;The teacher reminds marc that he can bring his plushie tomorrow instead&quot; style=&quot;max-width: 90%;&quot;&gt;  |Result2bb]]
+[[&lt;img src=&quot;https://i.imgur.com/YSrmjb9.png&quot; alt=&quot; The teacher offers Marc his backup plushie that is kept in the classroom espeically for moments like these&quot; style=&quot;max-width: 90%;&quot;&gt;  |Result2ba]]
+[[&lt;img src=&quot;https://i.imgur.com/eYEhnxd.png&quot; alt: &quot;The teacher assures him he will do fine on the quiz, he doesn&#39;t need to worry&quot; style=&quot;max-width: 90%;&quot;&gt;  |Result2bb]]
 
 
-</tw-passagedata><tw-passagedata pid="47" name="Choice3ab" tags="" position="400,2950" size="100,100">&lt;span class = &quot;biggerfont&quot;&gt;Choose one of these responses:&lt;/span&gt;
-&lt;img src=&quot;https://i.imgur.com/yds7j80.png&quot; alt=&quot;Teacher&quot; width=15% align=right&gt;
-[[&lt;img src=&quot;https://i.imgur.com/KpOPVvz.png&quot;style=&quot;max-width: 90%;&quot;&gt;  |Result3abb]]
-[[&lt;img src=&quot;https://i.imgur.com/v37T54X.png&quot;style=&quot;max-width: 90%;&quot;&gt;  |Result3abb]]
-[[&lt;img src=&quot;https://i.imgur.com/0cVGQGL.png&quot;style=&quot;max-width: 90%;&quot;&gt;  |Result3aba]]</tw-passagedata><tw-passagedata pid="48" name="Choice3ba" tags="" position="625,2950" size="100,100">&lt;span class = &quot;biggerfont&quot;&gt;Choose one of these responses:&lt;/span&gt;
-&lt;img src=&quot;https://i.imgur.com/yds7j80.png&quot; alt=&quot;Teacher&quot; width=15% align=right&gt;
-[[&lt;img src=&quot;https://i.imgur.com/KpOPVvz.png&quot;style=&quot;max-width: 90%;&quot;&gt;  |Result3bab]]
-[[&lt;img src=&quot;https://i.imgur.com/v37T54X.png&quot;style=&quot;max-width: 90%;&quot;&gt;  |Result3bab]]
-[[&lt;img src=&quot;https://i.imgur.com/0cVGQGL.png&quot;style=&quot;max-width: 90%;&quot;&gt;  |Result3baa]]</tw-passagedata><tw-passagedata pid="49" name="Choice3bb" tags="" position="900,2975" size="100,100">&lt;span class = &quot;biggerfont&quot;&gt;Choose one of these responses:&lt;/span&gt;
-&lt;img src=&quot;https://i.imgur.com/yds7j80.png&quot; alt=&quot;Teacher&quot; width=15% align=right&gt;
-[[&lt;img src=&quot;https://i.imgur.com/KpOPVvz.png&quot;style=&quot;max-width: 90%;&quot;&gt;  |Result3bbb]]
-[[&lt;img src=&quot;https://i.imgur.com/v37T54X.png&quot;style=&quot;max-width: 90%;&quot;&gt;  |Result3bbb]]
-[[&lt;img src=&quot;https://i.imgur.com/0cVGQGL.png&quot;style=&quot;max-width: 90%;&quot;&gt;  |Result3bba]]</tw-passagedata><tw-passagedata pid="50" name="Result3aab" tags="" position="175,3125" size="100,100">
 
-[[&lt;img src=&quot;https://i.imgur.com/H1pdN9X.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page22aab]]
+</tw-passagedata><tw-passagedata pid="26" name="Result2aa" tags="" position="125,2225" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/atro26N.png&quot;alt=&quot;Marc feels a little better as he sits with his second-favorite plushie from his faovirte game, the creature Leafipet. He still has thoughts bouncing around his head as he sits down:  I can&#39;t believe I forgot my homework AND my plushie. I&#39;ll never finish this quiz on time, I&#39;m going to get a bad score. The lights are so bright. Why is the bell so loud? Recess ended too soon to finish the game! What am I going to do?&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page15aa]]
 
-[[Next Page  |Page22aab]]
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page15aa]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Predecision3aa]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="27" name="Result2ab" tags="" position="275,2225" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/PmX2MvS.jpeg&quot;  alt=&quot;Marc sits down with a million thoughts running through his head. Is Ms. Parcs mad at me? I can&#39;t believe I forgot my homework AND my plushie. I&#39;ll never finish this quiz on time, I&#39;m going to get a bad score. The lights are so bright. Why is the bell so loud? Recess ended too soon to finish the game! What am I going to do? It&#39;s just not fair&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page15ab]]
 
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|Page24aab]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="51" name="Result3aaa" tags="" position="25,3125" size="100,100">&lt;img src=&quot;https://i.imgur.com/MUjVUge.png&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page15ab]]
+
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Predecision3ab]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="28" name="Result2bb" tags="" position="750,2225" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/PmX2MvS.jpeg&quot; alt=&quot;Marc sits down with a million thoughts running through his head. Is Ms. Parcs mad at me? I can&#39;t believe I forgot my homework AND my plushie. I&#39;ll never finish this quiz on time, I&#39;m going to get a bad score. The lights are so bright. Why is the bell so loud? Recess ended too soon to finish the game! What am I going to do? It&#39;s just not fair&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page15bb]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page15bb]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Predecision3bb]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="29" name="Result2ba" tags="" position="575,2225" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/atro26N.png&quot;alt=&quot;Marc feels a little better as he sits with his second-favorite plushie from his faovirte game, the creature Leafipet. He still has thoughts bouncing around his head as he sits down:  I can&#39;t believe I forgot my homework AND my plushie. I&#39;ll never finish this quiz on time, I&#39;m going to get a bad score. The lights are so bright. Why is the bell so loud? Recess ended too soon to finish the game! What am I going to do?&quot;  style=&quot;max-width: 100%;&quot;&gt;  |Page15ba]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page15ba]]
+
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Predecision3ba]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="30" name="Page15ab" tags="" position="300,2350" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/K2PWGnQ.png&quot; alt=&quot;Ms. Parcs stands in front of the class with a pile of quizzes and announces that they will have ten minutes to complete them. All the kids look a little worried, but Marc looks scared and extremely nervous, his throughts still too loud to hear her&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page16ab]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page16ab]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Predecision3ab]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="31" name="Page15bb" tags="" position="750,2350" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/K2PWGnQ.png&quot; alt=&quot;Ms. Parcs stands in front of the class with a pile of quizzes and announces that they will have ten minutes to complete them. All the kids look a little worried, but Marc looks scared and extremely nervous, his throughts still too loud to hear her&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page16bb]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page16bb]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Predecision3bb]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="32" name="Page15aa" tags="" position="125,2350" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/K2PWGnQ.png&quot; alt=&quot;Ms. Parcs stands in front of the class with a pile of quizzes and announces that they will have ten minutes to complete them. All the kids look a little worried, but Marc looks scared and extremely nervous, his throughts still too loud to hear her&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page16aa]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page16aa]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Predecision3aa]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="33" name="Page15ba" tags="" position="575,2350" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/K2PWGnQ.png&quot; alt=&quot;Ms. Parcs stands in front of the class with a pile of quizzes and announces that they will have ten minutes to complete them. All the kids look a little worried, but Marc looks scared and extremely nervous, his throughts still too loud to hear her&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page16ba]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page16ba]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Predecision3ba]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="34" name="Page16aa" tags="" position="125,2475" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/bOwbzIF.jpeg&quot; alt=&quot;Marc gets his quiz from Ms. Parcs, but his face is distant and he hardly notices&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page17aa]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page17aa]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Predecision3aa]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="35" name="Page16ab" tags="" position="300,2475" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/bOwbzIF.jpeg&quot; alt=&quot;Marc gets his quiz from Ms. Parcs, but his face is distant and he hardly notices&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page17ab]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page17ab]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Predecision3ab]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="36" name="Page16ba" tags="" position="575,2475" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/bOwbzIF.jpeg&quot; alt=&quot;Marc gets his quiz from Ms. Parcs, but his face is distant and he hardly notices&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page17ba]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page17ba]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Predecision3ba]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="37" name="Page16bb" tags="" position="750,2475" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/bOwbzIF.jpeg&quot; alt=&quot;Marc gets his quiz from Ms. Parcs, but his face is distant and he hardly notices&quot;  style=&quot;max-width: 100%;&quot;&gt;  |Page17bb]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page17bb]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Predecision3bb]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="38" name="Page17aa" tags="" position="125,2725" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/x0Zw2n1.png&quot; alt=&quot;Five minutes go by, and the teacher announces that there are five more minutes to finish the quiz&quot; style=&quot;max-width: 100%;&quot;&gt;  |Predecision3aa]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Predecision3aa]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Predecision3aa]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="39" name="Predecision3aa" tags="" position="125,2850" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/whFFmYH.jpeg&quot; alt=&quot;Ms. Parcs realizes that Marc hasn&#39;t even started his quiz. He still looks distant an worried, and is thinking about how much he needs his plushie.&quot;style=&quot;max-width: 100%;&quot;&gt;  |Choice3aa]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[How would you respond?  |Choice3aa]]
+</tw-passagedata><tw-passagedata pid="40" name="Page17ab" tags="" position="300,2725" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/x0Zw2n1.png&quot; alt=&quot;Five minutes go by, and the teacher announces that there are five more minutes to finish the quiz&quot; style=&quot;max-width: 100%;&quot;&gt;  |Predecision3ab]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Predecision3ab]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Predecision3ab]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="41" name="Predecision3ab" tags="" position="300,2850" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/whFFmYH.jpeg&quot; alt=&quot;Ms. Parcs realizes that Marc hasn&#39;t even started his quiz. He still looks distant an worried, and is thinking about how much he needs his plushie.&quot; style=&quot;max-width: 100%;&quot;&gt;  |Choice3ab]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[How would you respond? |Choice3ab]]</tw-passagedata><tw-passagedata pid="42" name="Page17ba" tags="" position="575,2725" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/x0Zw2n1.png&quot; alt=&quot;Five minutes go by, and the teacher announces that there are five more minutes to finish the quiz&quot; style=&quot;max-width: 100%;&quot;&gt;  |Predecision3ba]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Predecision3ba]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Predecision3ba]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="43" name="Predecision3ba" tags="" position="575,2850" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/whFFmYH.jpeg&quot;alt=&quot;Ms. Parcs realizes that Marc hasn&#39;t even started his quiz. He still looks distant an worried, and is thinking about how much he needs his plushie.&quot; style=&quot;max-width: 100%;&quot;&gt;  |Choice3ba]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[How would you respond?  |Choice3ba]]</tw-passagedata><tw-passagedata pid="44" name="Page17bb" tags="" position="750,2725" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/x0Zw2n1.png&quot; alt=&quot;Five minutes go by, and the teacher announces that there are five more minutes to finish the quiz&quot; style=&quot;max-width: 100%;&quot;&gt;  |Predecision3bb]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Predecision3bb]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Decision 3|Predecision3bb]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="45" name="Predecision3bb" tags="" position="750,2850" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/whFFmYH.jpeg&quot; alt=&quot;Ms. Parcs realizes that Marc hasn&#39;t even started his quiz. He still looks distant an worried, and is thinking about how much he needs his plushie.&quot; style=&quot;max-width: 100%;&quot;&gt;  |Choice3bb]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[How would you respond?  |Choice3bb]]</tw-passagedata><tw-passagedata pid="46" name="Choice3aa" tags="decision" position="125,2975" size="100,100">&lt;span class = &quot;decisionfont&quot;&gt;Decision 3 &lt;/span&gt;
+&lt;span class = &quot;decisionfont2&quot;&gt;Choose one of these three responses by clicking or tapping on the image &lt;/span&gt;
+
+[[&lt;img src=&quot;https://i.imgur.com/KpOPVvz.png&quot; alt= &quot;The teacher asks what is wrong, and assures Marc he can do this.&quot; style=&quot;max-width: 90%;&quot;&gt;  |Result3aab]]
+[[&lt;img src=&quot;https://i.imgur.com/v37T54X.png&quot; alt= &quot;The Teacher reminds Marc that there is only 5 more minutes on this quiz&quot; style=&quot;max-width: 90%;&quot;&gt;  |Result3aab]]
+[[&lt;img src=&quot;https://i.imgur.com/vROhgrd.png&quot; alt=&quot; The teacher suggests that Marc take a break in the safe, sensory-friendly room, which they call the Zen Den, and assures him he can finish the quiz later&quot; style=&quot;max-width: 90%;&quot;&gt;  |FinalAAA]]
+
+
+
+
+
+</tw-passagedata><tw-passagedata pid="47" name="Choice3ab" tags="decision" position="400,2950" size="100,100">&lt;span class = &quot;decisionfont&quot;&gt;Decision 3 &lt;/span&gt;
+&lt;span class = &quot;decisionfont2&quot;&gt;Choose one of these three responses by clicking or tapping on the image &lt;/span&gt;
+
+[[&lt;img src=&quot;https://i.imgur.com/KpOPVvz.png&quot; alt= &quot;The teacher asks what is wrong, and assures Marc he can do this.&quot; style=&quot;max-width: 90%;&quot;&gt;  |Result3abb]]
+[[&lt;img src=&quot;https://i.imgur.com/v37T54X.png&quot;  alt= &quot;The Teacher reminds Marc that there is only 5 more minutes on this quiz&quot;  style=&quot;max-width: 90%;&quot;&gt;  |Result3abb]]
+[[&lt;img src=&quot;https://i.imgur.com/vROhgrd.png&quot; alt=&quot; The teacher suggests that Marc take a break in the safe, sensory-friendly room, which they call the Zen Den, and assures him he can finish the quiz later&quot; style=&quot;max-width: 90%;&quot;&gt;  |FinalABA]]</tw-passagedata><tw-passagedata pid="48" name="Choice3ba" tags="decision" position="625,2950" size="100,100">&lt;span class = &quot;decisionfont&quot;&gt;Decision 3 &lt;/span&gt;
+&lt;span class = &quot;decisionfont2&quot;&gt;Choose one of these three responses by clicking or tapping on the image &lt;/span&gt;
+
+[[&lt;img src=&quot;https://i.imgur.com/KpOPVvz.png&quot; alt= &quot;The teacher asks what is wrong, and assures Marc he can do this.&quot; style=&quot;max-width: 90%;&quot;&gt;  |Result3bab]]
+[[&lt;img src=&quot;https://i.imgur.com/v37T54X.png&quot;  alt= &quot;The Teacher reminds Marc that there is only 5 more minutes on this quiz&quot;  style=&quot;max-width: 90%;&quot;&gt;  |Result3bab]]
+[[&lt;img src=&quot;https://i.imgur.com/vROhgrd.png&quot; alt=&quot; The teacher suggests that Marc take a break in the safe, sensory-friendly room, which they call the Zen Den, and assures him he can finish the quiz later&quot; style=&quot;max-width: 90%;&quot;&gt;  |FinalBAA]]</tw-passagedata><tw-passagedata pid="49" name="Choice3bb" tags="decision" position="900,2975" size="100,100">&lt;span class = &quot;decisionfont&quot;&gt;Decision 3&lt;/span&gt;
+&lt;span class = &quot;decisionfont2&quot;&gt;Choose one of these three responses by clicking or tapping on the image &lt;/span&gt;
+
+[[&lt;img src=&quot;https://i.imgur.com/KpOPVvz.png&quot; alt= &quot;The teacher asks what is wrong, and assures Marc he can do this.&quot; style=&quot;max-width: 90%;&quot;&gt;  |Result3bbb]]
+[[&lt;img src=&quot;https://i.imgur.com/v37T54X.png&quot;  alt= &quot;The Teacher reminds Marc that there is only 5 more minutes on this quiz&quot; style=&quot;max-width: 90%;&quot;&gt;  |Result3bbb]]
+[[&lt;img src=&quot;https://i.imgur.com/vROhgrd.png&quot; alt=&quot; The teacher suggests that Marc take a break in the safe, sensory-friendly room, which they call the Zen Den, and assures him he can finish the quiz later&quot; style=&quot;max-width: 90%;&quot;&gt;  |FinalBBA]]</tw-passagedata><tw-passagedata pid="50" name="Result3aab" tags="" position="175,3125" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/H1pdN9X.jpeg&quot; alt=&quot;The teacher approaches Marc&#39;s desk, asking if this is about his missing homework, reminding him that it&#39;s okay and he doesn&#39;t need to worry&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page22aab]]
+
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page22aab]]
+
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|FinalAAB]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="51" name="FinalAAA" tags="" position="25,3125" size="100,100">&lt;img src=&quot;https://i.imgur.com/MUjVUge.png&quot; alt=&quot;Marc is relaxing in the Zen den, a sensory-friendly room that is dark and calm, where he is wearing headphones and squeezing his backup plushie. The teacher checks in on him after a little while.&quot; style=&quot;max-width: 100%;&quot;&gt;
 
 Marc was able to calm down in the Zen Den, and his day improved as he joined the rest of the class again. Marc began to truly learn that the teacher was a safe person, and he will be likely to approach her before a crisis begins. 
 
-&lt;span class = &quot;bigfont&quot;&gt;3/3&lt;/span&gt;
+&lt;span class = &quot;scorefont&quot;&gt;3/3&lt;/span&gt;
 
-[[Retry  |Intro]]</tw-passagedata><tw-passagedata pid="52" name="Result3abb" tags="" position="450,3125" size="100,100">
+&lt;span class = &quot;bigont&quot;&gt;[[Retry  |Intro]]</tw-passagedata><tw-passagedata pid="52" name="Result3abb" tags="" position="450,3125" size="100,100">
 
-[[&lt;img src=&quot;https://i.imgur.com/H1pdN9X.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page22abb]]
+[[&lt;img src=&quot;https://i.imgur.com/H1pdN9X.jpeg&quot; alt=&quot;The teacher approaches Marc&#39;s desk, asking if this is about his missing homework, reminding him that it&#39;s okay and he doesn&#39;t need to worry&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page22abb]]
 
-[[Next Page  |Page22abb]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|Page24abb]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="53" name="Result3aba" tags="" position="325,3125" size="100,100">&lt;img src=&quot;https://i.imgur.com/MUjVUge.png&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;
-Marc&#39;s managed to calm down in the zen den,, and the rest of the class was able to continue. He slowly began to learn that the teacher was a safe person, and will likely approach her before another crisis begins. 
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page22abb]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|FinalABB]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="53" name="FinalABA" tags="" position="325,3125" size="100,100">&lt;img src=&quot;https://i.imgur.com/MUjVUge.png&quot; alt=&quot;Marc is relaxing in the Zen den, a sensory-friendly room that is dark and calm, where he is wearing headphones and squeezing his backup plushie. The teacher checks in on him after a little while.&quot; style=&quot;max-width: 100%;&quot;&gt;
+Marc managed to calm down in the zen den, and the rest of the class was able to continue. He slowly began to learn that the teacher was a safe person, and will likely approach her before another crisis begins. 
 
-&lt;span class = &quot;bigfont&quot;&gt;2/3&lt;/span&gt;
+&lt;span class = &quot;scorefont&quot;&gt;2/3&lt;/span&gt;
 
-[[Retry  |Intro]]</tw-passagedata><tw-passagedata pid="54" name="Result3bbb" tags="" position="1025,3100" size="100,100">
+&lt;span class = &quot;bigont&quot;&gt;[[Retry  |Intro]]</tw-passagedata><tw-passagedata pid="54" name="Result3bbb" tags="" position="1025,3100" size="100,100">
 
-[[&lt;img src=&quot;https://i.imgur.com/H1pdN9X.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page22bbb]]
+[[&lt;img src=&quot;https://i.imgur.com/H1pdN9X.jpeg&quot; alt=&quot;The teacher approaches Marc&#39;s desk, asking if this is about his missing homework, reminding him that it&#39;s okay and he doesn&#39;t need to worry&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page22bbb]]
 
-[[Next Page  |Page22bbb]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|Page24bbb]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="55" name="Result3bba" tags="" position="900,3100" size="100,100">&lt;img src=&quot;https://i.imgur.com/MUjVUge.png&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;
-Marc&#39;s managed to calm down, and the rest of the class was able to continue. He was only very slowly began to learn that the teacher was a safe person, though, and may not approach her before another crisis begins. 
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page22bbb]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|FinalBBB]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="55" name="FinalBBA" tags="" position="900,3100" size="100,100">&lt;img src=&quot;https://i.imgur.com/MUjVUge.png&quot; alt=&quot;Marc is relaxing in the Zen den, a sensory-friendly room that is dark and calm, where he is wearing headphones and squeezing his backup plushie. The teacher checks in on him after a little while.&quot; style=&quot;max-width: 100%;&quot;&gt;
+Marc managed to calm down, and the rest of the class was able to continue. He was only very slowly began to learn that the teacher was a safe person, though, and may not approach her before another crisis begins. 
 
-&lt;span class = &quot;bigfont&quot;&gt;1/3&lt;/span&gt;
+&lt;span class = &quot;scoerfont&quot;&gt;1/3&lt;/span&gt;
 
-[[Retry  |Intro]]</tw-passagedata><tw-passagedata pid="56" name="Result3bab" tags="" position="700,3150" size="100,100">
+&lt;span class = &quot;bigont&quot;&gt;[[Retry  |Intro]]</tw-passagedata><tw-passagedata pid="56" name="Result3bab" tags="" position="700,3150" size="100,100">
 
-[[&lt;img src=&quot;https://i.imgur.com/H1pdN9X.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page22bab]]
+[[&lt;img src=&quot;https://i.imgur.com/H1pdN9X.jpeg&quot; alt=&quot;The teacher approaches Marc&#39;s desk, asking if this is about his missing homework, reminding him that it&#39;s okay and he doesn&#39;t need to worry&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page22bab]]
 
-[[Next Page  |Page22bab]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|Page24bab]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="57" name="Result3baa" tags="" position="575,3150" size="100,100">&lt;img src=&quot;https://i.imgur.com/MUjVUge.png&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page22bab]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|FinalBAB]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="57" name="FinalBAA" tags="" position="575,3150" size="100,100">&lt;img src=&quot;https://i.imgur.com/MUjVUge.png&quot; alt=&quot;Marc is relaxing in the Zen den, a sensory-friendly room that is dark and calm, where he is wearing headphones and squeezing his backup plushie. The teacher checks in on him after a little while.&quot; style=&quot;max-width: 100%;&quot;&gt;
 
 Marc&#39;s managed to calm down, and the rest of the class was able to continue. He slowly began to learn that the teacher was a safe person, and will likely approach her before another crisis begins. 
 
-&lt;span class = &quot;bigfont&quot;&gt;2/3&lt;/span&gt;
+&lt;span class = &quot;scorefont&quot;&gt;2/3&lt;/span&gt;
 
-[[Retry  |Intro]]</tw-passagedata><tw-passagedata pid="58" name="Page22aab" tags="" position="175,3250" size="100,100">
+&lt;span class = &quot;bigont&quot;&gt;[[Retry  |Intro]]</tw-passagedata><tw-passagedata pid="58" name="Page22aab" tags="" position="175,3250" size="100,100">
 
-[[&lt;img src=&quot;https://i.imgur.com/JIbwSlV.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page23aab]]
+[[&lt;img src=&quot;https://i.imgur.com/JIbwSlV.jpeg&quot; alt=&quot;Ms. Parks leans on Marc&#39;s desk, asking him to work on the quiz. He responds with a look of distress, insisting that he doesn&#39;t want to loudly.&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page23aab]]
 
-[[Next Page  |Page23aab]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|Page24aab]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="59" name="Page22abb" tags="" position="450,3250" size="100,100">
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page23aab]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|FinalAAB]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="59" name="Page22abb" tags="" position="450,3250" size="100,100">
 
-[[&lt;img src=&quot;https://i.imgur.com/JIbwSlV.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page23abb]]
+[[&lt;img src=&quot;https://i.imgur.com/JIbwSlV.jpeg&quot;alt=&quot;Ms. Parks leans on Marc&#39;s desk, asking him to work on the quiz. He responds with a look of distress, insisting that he doesn&#39;t want to loudly.&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page23abb]]
 
-[[Next Page  |Page23abb]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|Page24abb]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="60" name="Page22bab" tags="" position="700,3275" size="100,100">
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page23abb]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|FinalABB]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="60" name="Page22bab" tags="" position="700,3275" size="100,100">
 
-[[&lt;img src=&quot;https://i.imgur.com/JIbwSlV.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page23bab]]
+[[&lt;img src=&quot;https://i.imgur.com/JIbwSlV.jpeg&quot; alt=&quot;Ms. Parks leans on Marc&#39;s desk, asking him to work on the quiz. He responds with a look of distress, insisting that he doesn&#39;t want to loudly.&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page23bab]]
 
-[[Next Page  |Page23bab]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|Page24bab]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="61" name="Page22bbb" tags="" position="1025,3225" size="100,100">
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page23bab]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|FinalBAB]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="61" name="Page22bbb" tags="" position="1025,3225" size="100,100">
 
-[[&lt;img src=&quot;https://i.imgur.com/JIbwSlV.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page23bbb]]
+[[&lt;img src=&quot;https://i.imgur.com/JIbwSlV.jpeg&quot; alt=&quot;Ms. Parks leans on Marc&#39;s desk, asking him to work on the quiz. He responds with a look of distress, insisting that he doesn&#39;t want to loudly.&quot; style=&quot;max-width: 100%;&quot;&gt;  |Page23bbb]]
 
-[[Next Page  |Page23bbb]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|Page24bbb]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="62" name="Page23aab" tags="" position="175,3375" size="100,100">
+&lt;span class = &quot;bigont&quot;&gt;[[Next Page  |Page23bbb]]
+&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|FinalBBB]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="62" name="Page23aab" tags="" position="175,3375" size="100,100">
 
-[[&lt;img src=&quot;https://i.imgur.com/EoVeI1A.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page24aab]]
+[[&lt;img src=&quot;https://i.imgur.com/EoVeI1A.jpeg&quot; alt=&quot;With Marc reaching a crisis point, the teacher asks him to take a deep breath in an attempt to diffuse the situation.&quot; style=&quot;max-width: 100%;&quot;&gt;  |FinalAAB]]
 
-[[Next Page  |Page24aab]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|Page24aab]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="63" name="Page23abb" tags="" position="450,3375" size="100,100">
+&lt;span class = &quot;bigont&quot;&gt;[[Summary |FinalAAB]]</tw-passagedata><tw-passagedata pid="63" name="Page23abb" tags="" position="450,3375" size="100,100">
 
-[[&lt;img src=&quot;https://i.imgur.com/EoVeI1A.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page24abb]]
+[[&lt;img src=&quot;https://i.imgur.com/EoVeI1A.jpeg&quot;alt=&quot;With Marc reaching a crisis point, the teacher asks him to take a deep breath in an attempt to diffuse the situation.&quot; style=&quot;max-width: 100%;&quot;&gt;  |FinalABB]]
 
-[[Next Page  |Page24abb]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|Page24abb]]&gt;</tw-passagedata><tw-passagedata pid="64" name="Page23bab" tags="" position="700,3400" size="100,100">
+&lt;span class = &quot;bigont&quot;&gt;[[Summary |FinalABB]]</tw-passagedata><tw-passagedata pid="64" name="Page23bab" tags="" position="700,3400" size="100,100">
 
-[[&lt;img src=&quot;https://i.imgur.com/EoVeI1A.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page24bab]]
+[[&lt;img src=&quot;https://i.imgur.com/EoVeI1A.jpeg&quot; alt=&quot;With Marc reaching a crisis point, the teacher asks him to take a deep breath in an attempt to diffuse the situation.&quot; style=&quot;max-width: 100%;&quot;&gt;  |FinalBAB]]
 
-[[Next Page  |Page24bab]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|Page24bab]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="65" name="Page23bbb" tags="" position="1025,3350" size="100,100">
+&lt;span class = &quot;bigont&quot;&gt;[[Summary |FinalBAB]]
+</tw-passagedata><tw-passagedata pid="65" name="Page23bbb" tags="" position="1025,3350" size="100,100">
 
-[[&lt;img src=&quot;https://i.imgur.com/EoVeI1A.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt;  |Page24bbb]]
+[[&lt;img src=&quot;https://i.imgur.com/EoVeI1A.jpeg&quot; alt=&quot;With Marc reaching a crisis point, the teacher asks him to take a deep breath in an attempt to diffuse the situation.&quot; style=&quot;max-width: 100%;&quot;&gt;  |FinalBBB]]
 
-[[Next Page  |Page24bbb]]
-&lt;span class = &quot;lilfont&quot;&gt;[[Skip to Summary|Page24bbb]]&lt;/span&gt;</tw-passagedata><tw-passagedata pid="66" name="Page24aab" tags="" position="175,3500" size="100,100">
+&lt;span class = &quot;bigont&quot;&gt;[[Summary |FinalBBB]]
+</tw-passagedata><tw-passagedata pid="66" name="FinalAAB" tags="" position="175,3500" size="100,100">
 
-&lt;img src=&quot;https://i.imgur.com/EfEuPpN.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt; 
+&lt;img src=&quot;https://i.imgur.com/EfEuPpN.jpeg&quot; alt=&quot;Marc reaches a full crisis, yelling NO, NO, NO as he throws his papers&quot; style=&quot;max-width: 100%;&quot;&gt; 
 
 Even thought Marc ended up having a crisis, he slowly began to learn that the teacher was a safe person, and will likely approach her before another crisis begins. 
 
-&lt;span class = &quot;bigfont&quot;&gt;2/3&lt;/span&gt;
+&lt;span class = &quot;scorefont&quot;&gt;2/3&lt;/span&gt;
 
-[[Retry  |Intro]]</tw-passagedata><tw-passagedata pid="67" name="Page24abb" tags="" position="450,3500" size="100,100">
+&lt;span class = &quot;bigont&quot;&gt;[[Retry  |Intro]]</tw-passagedata><tw-passagedata pid="67" name="FinalABB" tags="" position="450,3500" size="100,100">
 
-&lt;img src=&quot;https://i.imgur.com/EfEuPpN.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt; 
+&lt;img src=&quot;https://i.imgur.com/EfEuPpN.jpeg&quot; alt=&quot;Marc reaches a full crisis, yelling NO, NO, NO as he throws his papers&quot; style=&quot;max-width: 100%;&quot;&gt; 
 
 Even though he had a crisis, Marc was slowly learning that the teacher could sometimes felt like a safe person. He might approach her before a crisis begins next time. 
 
-&lt;span class = &quot;bigfont&quot;&gt;1/3&lt;/span&gt;
+&lt;span class = &quot;scorefont&quot;&gt;1/3&lt;/span&gt;
 
-[[Retry  |Intro]]</tw-passagedata><tw-passagedata pid="68" name="Page24bab" tags="" position="700,3525" size="100,100">
+&lt;span class = &quot;bigont&quot;&gt;[[Retry  |Intro]]</tw-passagedata><tw-passagedata pid="68" name="FinalBAB" tags="" position="700,3525" size="100,100">
 
-&lt;img src=&quot;https://i.imgur.com/EfEuPpN.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt; 
+&lt;img src=&quot;https://i.imgur.com/EfEuPpN.jpeg&quot; alt=&quot;Marc reaches a full crisis, yelling NO, NO, NO as he throws his papers&quot; style=&quot;max-width: 100%;&quot;&gt; 
 
 After he had had a crisis, he was only very slowly began to learn that the teacher was a safe person, though, and may not approach her before another crisis begins. 
 
-&lt;span class = &quot;bigfont&quot;&gt;1/3&lt;/span&gt;
+&lt;span class = &quot;scorefont&quot;&gt;1/3&lt;/span&gt;
 
-[[Retry  |Intro]]</tw-passagedata><tw-passagedata pid="69" name="Page24bbb" tags="" position="1025,3475" size="100,100">
+&lt;span class = &quot;bigont&quot;&gt;[[Retry  |Intro]]</tw-passagedata><tw-passagedata pid="69" name="FinalBBB" tags="" position="1025,3475" size="100,100">
 
-&lt;img src=&quot;https://i.imgur.com/EfEuPpN.jpeg&quot; alt=&quot;Page 14&quot;style=&quot;max-width: 100%;&quot;&gt; 
+&lt;img src=&quot;https://i.imgur.com/EfEuPpN.jpeg&quot; alt=&quot;Marc reaches a full crisis, yelling NO, NO, NO as he throws his papers&quot; style=&quot;max-width: 100%;&quot;&gt; 
 
 After he had had a crisis, Marc feels unsure about whether he can tell the teacher about his worries, and may not approach her before another crisis begins. 
 
-&lt;span class = &quot;bigfont&quot;&gt;0/3&lt;/span&gt;
+&lt;span class = &quot;scorefont&quot;&gt;0/3&lt;/span&gt;
 
-[[Retry  |Intro]]</tw-passagedata></tw-storydata>
+&lt;span class = &quot;bigont&quot;&gt;[[Retry  |Intro]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
